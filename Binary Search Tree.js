@@ -1,5 +1,5 @@
 'use strict';
-/* binary tree */
+/* Binary Search Tree */
 /* reference: https://github.com/nzakas/computer-science-in-javascript/blob/master/data-structures/binary-search-tree/binary-search-tree.js */
 
 
