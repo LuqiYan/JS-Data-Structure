@@ -52,6 +52,7 @@ binaryHeap.prototype.bubbleDown = function(parentIndex, parentValue){
     }
 };
 
+/* Test Min Heap */
 var tree = new binaryHeap();
 tree.add(3);
 tree.add(2);
@@ -60,8 +61,6 @@ tree.add(5);
 tree.add(11);
 tree.add(1);
 tree.add(15);
-
-/* Test Min Heap */
 console.log(tree.array);     // [1, 3, 2, 5, 11, 21, 15]
 tree.deleteRoot();
 console.log(tree.array);     // [2, 3, 15, 5, 11, 21]

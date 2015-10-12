@@ -52,6 +52,7 @@ binaryHeap.prototype.bubbleDown = function(parentIndex, parentValue){
     }
 };
 
+/* Test Max Heap */
 var tree = new binaryHeap();
 tree.add(3);
 tree.add(2);
@@ -60,8 +61,6 @@ tree.add(5);
 tree.add(11);
 tree.add(1);
 tree.add(15);
-
-/* Test Max Heap */
 console.log(tree.array);     // [21, 11, 15, 2, 5, 1, 3]
 tree.deleteRoot();
 console.log(tree.array);     // [15, 11, 3, 2, 5, 1]
