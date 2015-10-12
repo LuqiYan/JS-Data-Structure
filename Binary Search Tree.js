@@ -1,6 +1,8 @@
 'use strict';
 /* binary tree */
 /* reference: https://github.com/nzakas/computer-science-in-javascript/blob/master/data-structures/binary-search-tree/binary-search-tree.js */
+
+
 var binarySearchTree = function() {
     this.root = null;
 };
